@@ -14,6 +14,11 @@
 		ADE80DE720213CBA007ACB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE80DE520213CBA007ACB6E /* LaunchScreen.storyboard */; };
 		ADE80DF220213CBA007ACB6E /* BasicCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE80DF120213CBA007ACB6E /* BasicCalculatorTests.swift */; };
 		ADE80DFD20213CBA007ACB6E /* BasicCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE80DFC20213CBA007ACB6E /* BasicCalculatorUITests.swift */; };
+		ADE80E0B20213CE5007ACB6E /* images1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADE80E0A20213CE5007ACB6E /* images1.jpg */; };
+		ADE80E0D20213D38007ACB6E /* multiply.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE80E0C20213D38007ACB6E /* multiply.png */; };
+		ADE80E0F20213D3D007ACB6E /* MinusCM128.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE80E0E20213D3D007ACB6E /* MinusCM128.png */; };
+		ADE80E1120213D69007ACB6E /* images2.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE80E1020213D69007ACB6E /* images2.png */; };
+		ADE80E1320213D9A007ACB6E /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = ADE80E1220213D9A007ACB6E /* plus.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		ADE80DF820213CBA007ACB6E /* BasicCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE80DFC20213CBA007ACB6E /* BasicCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCalculatorUITests.swift; sourceTree = "<group>"; };
 		ADE80DFE20213CBA007ACB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE80E0A20213CE5007ACB6E /* images1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images1.jpg; sourceTree = "<group>"; };
+		ADE80E0C20213D38007ACB6E /* multiply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multiply.png; sourceTree = "<group>"; };
+		ADE80E0E20213D3D007ACB6E /* MinusCM128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinusCM128.png; sourceTree = "<group>"; };
+		ADE80E1020213D69007ACB6E /* images2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images2.png; sourceTree = "<group>"; };
+		ADE80E1220213D9A007ACB6E /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		ADE80DDB20213CBA007ACB6E /* BasicCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				ADE80E1220213D9A007ACB6E /* plus.png */,
+				ADE80E1020213D69007ACB6E /* images2.png */,
+				ADE80E0E20213D3D007ACB6E /* MinusCM128.png */,
+				ADE80E0C20213D38007ACB6E /* multiply.png */,
+				ADE80E0A20213CE5007ACB6E /* images1.jpg */,
 				ADE80DDC20213CBA007ACB6E /* AppDelegate.swift */,
 				ADE80DDE20213CBA007ACB6E /* ViewController.swift */,
 				ADE80DE020213CBA007ACB6E /* Main.storyboard */,
@@ -233,8 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADE80DE720213CBA007ACB6E /* LaunchScreen.storyboard in Resources */,
+				ADE80E1120213D69007ACB6E /* images2.png in Resources */,
+				ADE80E0B20213CE5007ACB6E /* images1.jpg in Resources */,
+				ADE80E0D20213D38007ACB6E /* multiply.png in Resources */,
 				ADE80DE420213CBA007ACB6E /* Assets.xcassets in Resources */,
+				ADE80E0F20213D3D007ACB6E /* MinusCM128.png in Resources */,
 				ADE80DE220213CBA007ACB6E /* Main.storyboard in Resources */,
+				ADE80E1320213D9A007ACB6E /* plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

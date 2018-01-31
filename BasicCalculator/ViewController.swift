@@ -10,16 +10,44 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var label1: UILabel!
+    @IBOutlet weak var label2: UILabel!
+    @IBOutlet weak var label3: UILabel!
+    @IBOutlet weak var label4: UILabel!
+    @IBOutlet weak var label5: UILabel!
+    @IBOutlet weak var label6: UILabel!
+    @IBOutlet weak var TextField1: UITextField!
+    @IBOutlet weak var TextField2: UITextField!
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        label5.text = ""
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func Plus(_ sender: Any)
+    {
+        let result = float_t(TextField1.text!)! + float_t(TextField2.text!)!
+        label5.text = String(result)
     }
-
-
+    
+    @IBAction func Minus(_ sender: Any)
+    {
+        let result = float_t(TextField1.text!)! - float_t(TextField2.text!)!
+        label5.text = String(result)
+    }
+    
+    @IBAction func Cross(_ sender: Any)
+    {
+        let result = float_t(TextField1.text!)! * float_t(TextField2.text!)!
+        label5.text = String(result)
+    }
+    
+    @IBAction func Divide(_ sender: Any)
+    {
+        let result = float_t(TextField1.text!)! / float_t(TextField2.text!)!
+        label5.text = String(result)
+    }
 }
 
